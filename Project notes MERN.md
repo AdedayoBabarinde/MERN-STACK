@@ -156,7 +156,7 @@ I created a MongoDB database and collection inside mLab as shown below
 
 
 -  Add a connection string to access the database in it as shown below:
-![](https://github.com/drazen-dee28/MERN-STACK/blob/main/Images/db.jpg)
+![](https://github.com/drazen-dee28/MERN-STACK/blob/main/Images/env.jpg)
 *Please note connection string was obtained from the connection tab of MongoDB cluster.*
 
 
