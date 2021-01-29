@@ -33,7 +33,7 @@ Move into the Todo directory
 
 - Use the command npm init to initialise your project
 ```sudo npm init```
-![](init.jpg)
+![](https://github.com/drazen-dee28/MERN-STACK/blob/main/Images/init.jpg)
 
 - I Installed ExpressJS*
 ```npm install express```
@@ -44,23 +44,23 @@ I created a file index.js
 
 I Installed the dotenv module
 ```npm install dotenv```
-![](dotenv.jpg)
+![](https://github.com/drazen-dee28/MERN-STACK/blob/main/Images/dotenv.jpg)
 
 
 I edited the index.js file as shown
 sudo nano index.js
-![](index.jpg)
+![](https://github.com/drazen-dee28/MERN-STACK/blob/main/Images/index.jpg)
 
 
 - I started the server
 
 ```node index.js```
 
-![](server.jpg)
+![](https://github.com/drazen-dee28/MERN-STACK/blob/main/Images/server.jpg)
 
 
 I Opened my your browser and opened ```localhost:5000```
-![](welcome.jpg) 
+![](https://github.com/drazen-dee28/MERN-STACK/blob/main/Images/welcome.jpg) 
 
 
 -To Create a task,i created `routes` that will define various endpoints that the `todo` app
@@ -78,7 +78,7 @@ I moved directory into the routes folder.
 `sudo touch api.js`
 
 I edited the `api.js` file as follows
-![](api.jpg)
+![](https://github.com/drazen-dee28/MERN-STACK/blob/main/Images/api.jpg)
 
 
 
@@ -147,7 +147,7 @@ module.exports = router;
 - I signed up for a shared clusters free account via https://www.mongodb.com/atlas-signup-from-mlab
 
 I created a MongoDB database and collection inside mLab as shown below
-![](db.jpg)
+![](https://github.com/drazen-dee28/MERN-STACK/blob/main/Images/db.jpg)
 
 
 - Create a file named `.env` in the `TODO` directory .
@@ -156,7 +156,7 @@ I created a MongoDB database and collection inside mLab as shown below
 
 
 -  Add a connection string to access the database in it as shown below:
-![](env.jpg)
+![](https://github.com/drazen-dee28/MERN-STACK/blob/main/Images/db.jpg)
 *Please note connection string was obtained from the connection tab of MongoDB cluster.*
 
 
