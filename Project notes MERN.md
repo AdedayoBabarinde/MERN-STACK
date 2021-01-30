@@ -162,6 +162,7 @@ I created a MongoDB database and collection inside mLab as shown below
 
 
 - I updated the index.js file to reflect the use of `dotenv` with the code below
+
 ```
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -202,10 +203,31 @@ console.log(`Server running on port ${port}`)
 });
 ```
 
+- I started the node js server
+`node index.js`
+
+
+** Testing The Code Without A Frontend User Interface**
+
+- I used `Postman` to test for the API
+
+- I installed `postman` as shown
+![](https://github.com/drazen-dee28/MERN-STACK/blob/main/Images/postman.jpg)
+
+
+- I opened Postman, created a post request to the API http://localhost:5000/api/todos as shown below:
+
+![](https://github.com/drazen-dee28/MERN-STACK/blob/main/Images/post.jpg)
+
+
+
 
 
 
 CREDITS
 
 [DevOps Experts](www.darey.io)
+
 [Mongodb Clusters](https://www.mongodb.com/atlas)
+
+[How to install Postman](https://linuxize.com/post/how-to-install-postman-on-ubuntu-20-04/)
