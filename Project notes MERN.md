@@ -203,6 +203,8 @@ console.log(`Server running on port ${port}`)
 - I started the node js server
 `node index.js`
 
+![](connectdb.jpg)
+
 
 ** Testing The Code Without A Frontend User Interface**
 
@@ -214,11 +216,49 @@ console.log(`Server running on port ${port}`)
 
 - I opened Postman, created a post request to the API http://localhost:5000/api/todos as shown below:
 
-![](https://github.com/drazen-dee28/MERN-STACK/blob/main/Images/post.jpg)
+![](https://github.com/drazen-dee28/MERN-STACK/blob/main/Images/postreq.jpg)
+
+- I also created a `GET` request to the API http://localhost:5000/api/todos as shown below:
+
+![](https://github.com/drazen-dee28/MERN-STACK/blob/main/Images/getreq.jpg)
 
 
 
 
+**Creating the Frontend**
+
+I ran `sudo npx create-react-app client` the following in the `/Todo` directory
+
+![](https://github.com/drazen-dee28/MERN-STACK/blob/main/Images/npx.jpg)
+
+
+
+**Running the React App**
+
+To run more than one command simultaneously from the same terminal window i installed `concurrently`
+`sudo npm install concurrently --save-dev`
+
+
+- To run and monitor the server i installed `nodemon`
+`sudo npm install nodemon --save-dev`
+
+
+- I edited the content of `package.json` file by adding the following 
+```"scripts": {
+"start": "node index.js",
+"start-watch": "nodemon index.js",
+"dev": "concurrently \"npm run start-watch\" \"cd client && npm start\""
+},
+```
+
+**Configure Proxy in package.json**
+
+-From the `Todo` directory, i moved to the `client` folder  and opened the `package.json` file and added the key value pair below to it
+`"proxy": "http://localhost:5000"`
+and this will enable us make api calls without  typing the full url.
+
+
+![](https://github.com/drazen-dee28/MERN-STACK/blob/main/Images/json.jpg)
 
 
 CREDITS
