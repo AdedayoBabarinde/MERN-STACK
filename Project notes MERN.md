@@ -1,11 +1,8 @@
 
 
-- Network Information
-
-Server ip : 192.168.1.150
 
 
-- Prepare the backend Ubuntu server
+-I Prepared the backend Ubuntu server
 
 Obtain the location of nodejs software from ubuntu repositories over the internet.
 
